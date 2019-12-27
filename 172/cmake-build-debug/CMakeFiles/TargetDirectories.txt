@@ -1,3 +1,0 @@
-E:/oj/lc/172/cmake-build-debug/CMakeFiles/172.dir
-E:/oj/lc/172/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/oj/lc/172/cmake-build-debug/CMakeFiles/rebuild_cache.dir

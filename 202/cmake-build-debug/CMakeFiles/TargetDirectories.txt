@@ -1,3 +1,0 @@
-E:/oj/lc/202/cmake-build-debug/CMakeFiles/202.dir
-E:/oj/lc/202/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/oj/lc/202/cmake-build-debug/CMakeFiles/rebuild_cache.dir

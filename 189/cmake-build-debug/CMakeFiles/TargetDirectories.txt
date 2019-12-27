@@ -1,3 +1,0 @@
-E:/oj/lc/189/cmake-build-debug/CMakeFiles/189.dir
-E:/oj/lc/189/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/oj/lc/189/cmake-build-debug/CMakeFiles/rebuild_cache.dir
