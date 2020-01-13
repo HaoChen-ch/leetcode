@@ -11,18 +11,17 @@ struct ListNode {
 };
 
 ListNode *reverseList(ListNode *head) {
-    if (head == nullptr)
-        return nullptr;
-    ListNode *cur = head;
-    ListNode *next = nullptr;
-    ListNode *pre = nullptr;
-    while (cur != nullptr) {
-        next = cur->next;
-        cur->next = pre;
-        pre = cur;
-        cur = next;
+    if(head ==nullptr)
+        return head;
+    ListNode *pre = new ListNode(0);
+    pre->next = head;
+    while(head->next){
+        ListNode *next = head->next;
+        head->next = next->next;
+        next->next = pre->next;
+        pre->next = next;
     }
-    return pre;
+    return pre->next;
 }
 
 int main() {

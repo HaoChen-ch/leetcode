@@ -5,38 +5,20 @@
 
 using namespace std;
 
-class Node {
-public:
-    int fre;
-    int val;
-    Node(int val,int fre){
-        this->fre=fre;
-        this->val = val;
-    }
-};
 
-bool cmp(Node node1, Node node2) {
-    return node1.fre > node2.fre;
+bool cmp(pair<int ,int> a ,pair<int ,int> b){
+    return a.
+
 }
-
 vector<int> topKFrequent(vector<int> &nums, int k) {
-    vector<int> ans;
-    vector<Node> v;
-    for (int num:nums) {
-        if(v.)
-        Node* tmp = new Node(num,1);
-
+    vector<pair<int, int>> map;
+    for (int i = 0; i < nums.size(); i++) {
+        map[nums[i]]++;
     }
 
-//    for (int i = 0; i < k; i++) {
-//        ans.push_back(map[i]);
-//    }
-    return ans;
 }
 
 int main() {
-    vector<int> a = {1, 1, 1, 2, 2, 3};
-    vector<int> b = topKFrequent(a, 2);
     std::cout << "Hello, World!" << std::endl;
     return 0;
 }
